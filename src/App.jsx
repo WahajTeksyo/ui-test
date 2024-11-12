@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import UserModal from './components/UserModal';
 import './App.css'
 import Header from './components/Header'
-import Sidebar from './components/sidebar'
+import Sidebar from './components/Sidebar'
 
 function App() {
   const [users, setUsers] = useState([]);
