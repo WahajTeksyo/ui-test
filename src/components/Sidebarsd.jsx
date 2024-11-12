@@ -1,7 +1,7 @@
 
 import  { useState } from 'react';
 
-const Sidebar = () => {
+const Sidebarsd = () => {
 
   const [toggleMenue, setToggleMenue] = useState(true);
   const [selectedItem, setSelectedItem] = useState('Dashboard'); // Default active item
@@ -12,7 +12,6 @@ const Sidebar = () => {
 
   return (
     <>
-      {/* SideBar */}
       <section className={`h-screen xl:block transition-all ease-in-out duration-700 xl:relative xl:left-0 top-0 absolute border-r bg-sd-gray-shade max-w-72 w-full xl:-mt-[73px] z-[4] pt-6
           ${toggleMenue ? 'left-0' : '-left-[287px]'}
         `}>
@@ -59,4 +58,4 @@ const Sidebar = () => {
   )
 }
 
-export default Sidebar
+export default Sidebarsd

@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
+import Sidebarsd from './components/Sidebarsd';
 import UserModal from './components/UserModal';
-import './App.css'
-import Header from './components/Header'
-import Sidebar from './components/Sidebar'
+import './App.css';
+import Header from './components/Header';
 
 function App() {
   const [users, setUsers] = useState([]);
@@ -56,8 +56,9 @@ function App() {
       <Header />
 
       <div className="flex">
-        <Sidebar />
+        <Sidebarsd />
         {/* employees */}
+
         <section className='grow w-full'>
           <div className="lg:px-6 px-4 lg:py-8 py-6 h-screen">
             <div className="flex justify-between items-center flex-wrap gap-5">
